@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="/semantic.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+	<!-- Following Menu -->
+	<div id="following-menu" class="ui large top fixed hidden menu">
+		<div class="ui container">
+			<div class="item">
+				<img id="logo" src="/images/logo.png">
+			</div>
+			<a class="active item">Yazılar</a>
+			<a class="item">Platform Hakkında</a>
+			<a class="item">Yazı ekle &nbsp <i class="write icon"></i></a>
+			<div class="right menu">
+				<div class="item">
+					<a href="/login" class="ui button">Giriş</a>
+				</div>
+				<div class="item">
+					<a class="ui black button">Üye ol</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Sidebar Menu -->
+	<div class="ui vertical inverted sidebar menu">
+		<a class="active item">Yazılar</a>
+		<a class="item">Platform Hakkında</a>
+		<a class="item">Yazı ekle</a>
+		<a href="/login" class="item">Giriş</a>
+		<a class="item">Üye ol</a>
+	</div>
+
+	<!-- Page Contents -->
+	<div class="pusher">
+		<div class="ui inverted vertical masthead center aligned segment">
+			<div class="ui container">
+				<div class="ui large secondary inverted pointing menu">
+					<a class="toc item">
+						<i class="sidebar icon"></i>
+					</a>
+					<a class="active item">Yazılar</a>
+					<a class="item">Platform Hakkında</a>
+					<div class="right item">
+						<a href="/login" class="ui inverted button">Giriş</a>
+						<a class="ui inverted button">Üye ol</a>
+					</div>
+				</div>
+			</div>
+			<div class="ui text container">
+				<!-- <div class="logo-icon">
+					<span><i class="legal white icon"></i></span>
+				</div> -->
+				<h1 class="ui inverted header">
+				Vekaleten
+				</h1>
+				<h2>Avukatlar için paylaşım platformu</h2>
+				<div class="ui huge black button">Yazı ekle <i class="right write icon"></i></div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div id="feed-container" style="min-height:1000px;" class="ui three column centered grid">
+				<div style="height:300px;" class="three wide computer sixteen wide column">
+					<div class="ui vertical menu">
+						<div class="item">
+					    	<h3>Hukuk Dalları</h3>
+						</div>
+						<a class="item">Rekabet Hukuku</a>
+					  	<a class="item">Ticaret Hukuku</a>
+					  	<a class="item">Tahkim</a>
+					  	<a class="item">Bankacılık Hukuku ve Sermaye Piyasaları</a>
+					  	<a class="item">Marka ve Patent Hukuku</a>
+					  	<a class="item">Birleşme Devralmalar ve Proje Finansmanı</a>
+					  	<a class="item">Ceza Hukuku</a>
+					  	<a class="item">Compliance (Uyum)</a>
+					  	<a class="item">Enerji ve Tabii Kaynaklar Hukuku</a>
+					  	<a class="item">Çevre ve İklim Değişikliği</a>
+					  	<a class="item">Aile Hukuku</a>
+					  	<a class="item">Sağlık Hukuku</a>
+					  	<a class="item">İnsan Hakları</a>
+					  	<a class="item">Sigorta Hukuku</a>
+					  	<a class="item">Medya Hukuku</a>
+					  	<a class="item">İdare Hukuku</a>
+					  	<a class="item">Gayrimenkul Hukuku</a>
+					  	<a class="item">Deniz ve Taşımacılık Hukuku</a>
+					  	<a class="item">Vergi ve Gümrük Mevzuatı </a>
+					  	<a class="item">Elektronik Haberleşme Hukuku</a>
+					  	<a class="item">Beyaz Yakalı Suçları ve Mesleki Sorumluluk</a>
+					  	<a class="item">İnternet ve Kişisel Verilerin Korunması</a>
+					  	<a class="item">Hukuk Piyasası</a>
+					  	<a class="item">Editöryal</a>
+					  	<a class="item">Küresel haberler</a>
+					  	<a class="item">İş Hukuku</a>
+					</div>
+				</div>
+				<div class="eight wide computer sixteen wide column">
+					<div id="search-bar" class="ui search">
+						<div class="ui icon input">
+							<input class="prompt" type="text" placeholder="Konu arama...">
+							<i class="search icon"></i>
+						</div>
+						<div class="results"></div>
+					</div>
+					<div id="feed-section">
+						<div class="ui divided items">
+							<div class="item">
+								<div class="image feed-image">
+									<img src="/images/image_user.jpg">
+								</div>
+								<div class="content">
+									<a class="header">Sinema salonlarında bir hayalet dolaşıyor</a>
+									<div class="description">
+										<p><i class="user icon"></i> by <a href="#">Bulut Girgin</a></p>
+										<p><i class="calendar icon"></i> 15.05.2015</p>
+									</div>
+									<div class="meta">
+										<span class="cinema">Sevgili üstadım Ali Ilıcak’ın Danıştay'ın Mars-AFM birleşmesine ilişkin Rekabet Kurulu kararının yürütmesini durdurduğuna ilişkin yazısını görünce 2012 Ocak ayında Pazarlardan Haberler’e yazmış olduğum şu naciz yazıyı hatırladım. http://pazarlardanhaberler.com/2012/01/03/emek-sinemasindan-avm-sinemasina/ Ali Ilıcak’ın ve iki buç...</span>
+										<a href="#">devamı <i class="caret right icon"></i></a>
+									</div>
+									<div class="extra">
+										<div class="ui label">Rekabet Hukuku</div>
+										<div class="ui label">Birleşme Devralmalar ve Proje Finansmanı</div>
+										<div class="ui label">İdare Hukuku</div>
+										<div class="ui label">Ticaret Hukuku</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="image feed-image">
+									<img src="/images/image_user_3.jpg">
+								</div>
+								<div class="content">
+									<a class="header">Dosyayı açıyoruz: (Hukukçu) Derecelendirme Kuruluşları</a>
+									<div class="description">
+										<p><i class="user icon"></i> by <a href="#">Ali Ilıcak</a></p>
+										<p><i class="calendar icon"></i> 19.05.2015</p>
+									</div>
+									<div class="meta">
+										<span class="cinema">Yeni ofisle birlikte hayaller de kuran her hukukçunun gündemindedir bir derecelendirme kuruluşunun rehberine girmek. Ofisi büyütüp hayalleri gerçekleştirenler bir şekilde zaten o rehberlerdedir ama bu sefer de üst sıralara çıkmak dert olur. Yani ister zengin ol ister fukara derecelendiril mutlaka! Kuruluşların hangileri olduğu malum. Chambers ve Legal 500 ülkemizde en çok adı geçe...</span>
+										<a href="#">devamı <i class="caret right icon"></i></a>
+									</div>
+									<div class="extra">
+										<div class="ui label">Rekabet Hukuku</div>
+										<div class="ui label">Birleşme Devralmalar ve Proje Finansmanı</div>
+										<div class="ui label">İdare Hukuku</div>
+										<div class="ui label">Ticaret Hukuku</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="image feed-image">
+									<img src="/images/image_user_2.jpg">
+								</div>
+								<div class="content">
+									<a class="header">SON DAKİKA ! Rekabet Kurulu yeni üyeleri atandı !</a>
+									<div class="description">
+										<p><i class="user icon"></i> by <a href="#">Deniz Kozakçı</a></p>
+										<p><i class="calendar icon"></i> 15.05.2015</p>
+									</div>
+									<div class="meta">
+										<span class="cinema">Bir süredir eksik üye sayısıyla yoluna devam eden Rekabet Kurulu'nun başkanı, ikinci başkanı ve üyesi atandı. Atama kararı bugün Resmi Gazete'de yayınlandı. Karara göre; Rekabet Kurumu Başkanı olarak TOBB’dan aday gösterilen Prof.Dr. Ömer TORLAK , ikinci başkan olarak Gümrük ve Ticaret Bakanlığı’ından aday gösterilen Arslan NARİN, yeni Rekabet Kurulu üyesi olarak Yargıtay’dan aday gösterilen Kenan...</span>
+										<a href="#">devamı <i class="caret right icon"></i></a>
+									</div>
+									<div class="extra">
+										<div class="ui label">Rekabet Hukuku</div>
+										<div class="ui label">Birleşme Devralmalar ve Proje Finansmanı</div>
+										<div class="ui label">İdare Hukuku</div>
+										<div class="ui label">Ticaret Hukuku</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="image feed-image">
+									<img src="/images/image_user.jpg">
+								</div>
+								<div class="content">
+									<a class="header">Sinema salonlarında bir hayalet dolaşıyor</a>
+									<div class="description">
+										<p><i class="user icon"></i> by <a href="#">Bulut Girgin</a></p>
+										<p><i class="calendar icon"></i> 15.05.2015</p>
+									</div>
+									<div class="meta">
+										<span class="cinema">Sevgili üstadım Ali Ilıcak’ın Danıştay'ın Mars-AFM birleşmesine ilişkin Rekabet Kurulu kararının yürütmesini durdurduğuna ilişkin yazısını görünce 2012 Ocak ayında Pazarlardan Haberler’e yazmış olduğum şu naciz yazıyı hatırladım. http://pazarlardanhaberler.com/2012/01/03/emek-sinemasindan-avm-sinemasina/ Ali Ilıcak’ın ve iki buç...</span>
+										<a href="#">devamı <i class="caret right icon"></i></a>
+									</div>
+									<div class="extra">
+										<div class="ui label">Rekabet Hukuku</div>
+										<div class="ui label">Birleşme Devralmalar ve Proje Finansmanı</div>
+										<div class="ui label">İdare Hukuku</div>
+										<div class="ui label">Ticaret Hukuku</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="image feed-image">
+									<img src="/images/image_user_3.jpg">
+								</div>
+								<div class="content">
+									<a class="header">Dosyayı açıyoruz: (Hukukçu) Derecelendirme Kuruluşları</a>
+									<div class="description">
+										<p><i class="user icon"></i> by <a href="#">Ali Ilıcak</a></p>
+										<p><i class="calendar icon"></i> 19.05.2015</p>
+									</div>
+									<div class="meta">
+										<span class="cinema">Yeni ofisle birlikte hayaller de kuran her hukukçunun gündemindedir bir derecelendirme kuruluşunun rehberine girmek. Ofisi büyütüp hayalleri gerçekleştirenler bir şekilde zaten o rehberlerdedir ama bu sefer de üst sıralara çıkmak dert olur. Yani ister zengin ol ister fukara derecelendiril mutlaka! Kuruluşların hangileri olduğu malum. Chambers ve Legal 500 ülkemizde en çok adı geçe...</span>
+										<a href="#">devamı <i class="caret right icon"></i></a>
+									</div>
+									<div class="extra">
+										<div class="ui label">Rekabet Hukuku</div>
+										<div class="ui label">Birleşme Devralmalar ve Proje Finansmanı</div>
+										<div class="ui label">İdare Hukuku</div>
+										<div class="ui label">Ticaret Hukuku</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="height:300px;" class="three wide computer sixteen wide column sticky-content">
+					<h3 style="color:#654422">En çok okunanlar</h3>
+					<div class="ui list favourite">
+						<a class="item">
+							<i class="right asterisk icon"></i>
+							<div class="content">
+								<div class="header">Sinema salonlarında hayalet dolaşıyor</div>
+								<div class="description">
+									by <span>Bulut Girgin</span>
+								</div>
+							</div>
+						</a>
+						<hr>
+						<a class="item">
+							<i class="right asterisk icon"></i>
+							<div class="content">
+								<div class="header">Dosyayı açıyoruz: (Hukukçu) Derecelendirme Kuruluşları</div>
+								<div class="description">
+									by <span>Ahmet Hakan</span>
+								</div>
+							</div>
+						</a>
+						<hr>
+						<a class="item">
+							<i class="right asterisk icon"></i>
+							<div class="content">
+								<div class="header">Eşçinsel evliliklerin hukuki boyutu</div>
+								<div class="description">
+									by <span>Seden Gürel</span>
+								</div>
+							</div>
+						</a>					
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ui inverted vertical footer segment">
+			<div class="ui container">
+				<div class="ui stackable inverted divided equal height stackable grid">
+					<div class="three wide column">
+						<h4 class="ui inverted header">About</h4>
+						<div class="ui inverted link list">
+							<a href="#" class="item">Sitemap</a>
+							<a href="#" class="item">Contact Us</a>
+							<a href="#" class="item">Religious Ceremonies</a>
+							<a href="#" class="item">Gazebo Plans</a>
+						</div>
+					</div>
+					<div class="three wide column">
+						<h4 class="ui inverted header">Services</h4>
+						<div class="ui inverted link list">
+							<a href="#" class="item">Banana Pre-Order</a>
+							<a href="#" class="item">DNA FAQ</a>
+							<a href="#" class="item">How To Access</a>
+							<a href="#" class="item">Favorite X-Men</a>
+						</div>
+					</div>
+					<div class="seven wide column">
+						<h4 class="ui inverted header">Footer Header</h4>
+						<p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="/semantic.min.js"></script>
+	<script src="https://rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
